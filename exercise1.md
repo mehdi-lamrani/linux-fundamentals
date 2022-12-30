@@ -9,3 +9,7 @@ matching the date in variable BIRTHDATE e.g. Saturday.
 
 - Note that the 'date' command can be used to convert a date format into a different date format. 
 - For example, to convert date value, $date1, to day of the week of date1, use: 
+
+```
+date -d "$date1" +%A
+```
